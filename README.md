@@ -1,14 +1,14 @@
-## Dust2.us Recent Results Scraper
+# Dust2.us Recent Results Scraper
 
-# Overview
+## Overview
 This Python script scrapes the recent match results from the Dust2.us website. The script fetches the latest matches, including the date, teams involved, and the final scores, and prints them out in a readable format.
 
-# Requirements
+## Requirements
 Python 3.x
 requests library
 beautifulsoup4 library
 
-# How It Works
+## How It Works
 Fetching the Webpage: The script sends a GET request to the Dust2.us results page to fetch the HTML content.
 
 Parsing the HTML: The script uses BeautifulSoup to parse the HTML content and locate the section containing match results.
